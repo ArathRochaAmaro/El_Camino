@@ -1,0 +1,185 @@
+/* GENERAL */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+/* PORTADA */
+.portada{
+    height: 430px;
+    background-image: url("./imagenes/portada.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.portada h1{
+    font-size: 55px;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 2px 2px 5px black;
+}
+
+.portada p{
+    font-size: 18px;
+    margin: 5px 0;
+    text-shadow: 1px 1px 3px black;
+}
+
+
+/* MENU 3 BOTONES */
+.menu {
+    background-color: black;
+    padding: 0;
+}
+
+
+.menu .col-4{
+    padding: 18px 0;
+    border-right: 1px solid gray;
+}
+
+.menu .col-4:last-child{
+    border-right: none;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #56b0ff;
+}
+
+
+
+
+/* SECCIÓN PAZ (EL MENSAJE) */
+.paz{
+    background-color: white;
+}
+
+.paz h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.paz img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.paz p{
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* BENEFICIOS */
+.beneficios{
+    background-color: white;
+}
+
+.icono {
+    color: #27c2ff;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.beneficios h3{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.beneficios p{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* TÍTULO VIDA NUEVA */
+.titulo-vida{
+    height: 190px;
+    background-image: url("./imagenes/portada.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.titulo-vida h2{
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
+
+
+/* VERDADES PARA TU VIDA */
+.verdades{
+    background-color: white;
+}
+
+.verdades h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.verdades p{
+    font-size: 14px;
+}
+
+.verdades-img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+/* FOOTER */
+.footer {
+    width: 100%;
+    background-color: #42889f;
+    color: white;
+    padding: 45px 0 15px;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+}
+
+.footer p{
+    margin: 8px;
+}
+
+.footer h2{
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.redes a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+/* LOGO DEL FOOTER */
+.logo-footer h2 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 38px;
+    font-weight: bold;
+    letter-spacing: 2px; /* Espacio entre letras */
+}
+
+/* COPYRIGHT */
+.copyright {
+    width: 100%;
+    text-align: right;
+    font-size: 10px;
+    margin-top: 20px;
+}
